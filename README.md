@@ -1,45 +1,6 @@
 # Make-Your-Own-JARVIS
 OTIS Code
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #include <SD.h>
 #include <SPI.h>
 #include <SoftwareSerial.h>
