@@ -1,5 +1,5 @@
 # Make-Your-Own-JARVIS
-OTIS Code
+b.o.b Code
 
 #include <SD.h>
 #include <SPI.h>
@@ -16,7 +16,7 @@ bool acknowledge2 = false;
 bool tuneIn = true;
 //int resetPin = 8;
 //String line;
-//String wrd = "ACYCLOVIR";
+//String wrd = "kinIchi1";
 //File myfile;
 
 
