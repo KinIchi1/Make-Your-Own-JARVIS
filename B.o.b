@@ -14,7 +14,7 @@ bool acknowledge2 = false;
 bool tuneIn = true;
 //int resetPin = 8;
 //String line;
-//String wrd = "ACYCLOVIR";
+//String wrd = "kinIci1";
 //File myfile;
 
 
@@ -55,7 +55,7 @@ void loop(){
     voice += buf[1];
     
     if (voice == 1 && acknowledge == false && acknowledge2 == false){          //checks the value of voice and acknowledgements
-      Serial.println(F("Otis"));
+      Serial.println(F("B.o.b"));
       delay(1000);
       tmrpcm.play("BAYSS.WAV");
       myVR.setGroup(1);                                 //sets group to the group with commands
