@@ -14,7 +14,7 @@ bool acknowledge2 = false;
 bool tuneIn = true;
 //int resetPin = 8;
 //String line;
-//String wrd = "kinIci1";
+//String wrd = "kinIchi1";
 //File myfile;
 
 
@@ -149,7 +149,7 @@ void loop(){
 
       case 5:
       if (acknowledge == true && acknowledge2 == false && tuneIn == true){
-      Serial.println(F("hello cheyenne"));
+      Serial.println(F("hello cam"));
       tmrpcm.play("BHBD.WAV");
       acknowledge = false;
       delay(5000);
