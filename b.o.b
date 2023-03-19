@@ -57,7 +57,7 @@ void loop(){
     voice += buf[1];
     
     if (voice == 1 && acknowledge == false && acknowledge2 == false){          //checks the value of voice and acknowledgements
-      Serial.println(F("Otis"));
+      Serial.println(F("b.o.b"));
       delay(1000);
       tmrpcm.play("BAYSS.WAV");
       myVR.setGroup(1);                                 //sets group to the group with commands
@@ -151,7 +151,7 @@ void loop(){
 
       case 5:
       if (acknowledge == true && acknowledge2 == false && tuneIn == true){
-      Serial.println(F("hello cheyenne"));
+      Serial.println(F("hello cam"));
       tmrpcm.play("BHBD.WAV");
       acknowledge = false;
       delay(5000);
